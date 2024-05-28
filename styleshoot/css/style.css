@@ -558,4 +558,13 @@ iframe{
     color: #777;
 }
 
+/*-----------STATE BUYER--------------------------------*/
 
+.header2 {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(), linear-gradient(rgba(204, 198, 220, 0.7),rgba(204, 235, 234, 0.7));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
