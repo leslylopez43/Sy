@@ -9,6 +9,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    overflow: hidden;
 }
 
 nav{
@@ -398,7 +399,7 @@ iframe{
 .header1 {
     min-height: 100vh;
     width: 100%;
-    background-image: url(), linear-gradient(rgba(195, 207, 226, 0.7),rgba(171, 227, 225, 0.7));
+    background-image: url(), linear-gradient(rgba(179, 198, 220, 0.7),rgba(204, 235, 234, 0.7));
     background-position: center;
     background-size: cover;
     position: relative;
@@ -431,6 +432,10 @@ iframe{
     justify-content: space-between;
     margin-top: 5%;
 }
+.carousel-item {
+    height: 500px; /* Adjust the height as needed */
+}
+
 .about-col{
     flex-basis: 31%;
     background: #fff3f3;
@@ -552,4 +557,5 @@ iframe{
 .footer .copyrigth p a:hover{
     color: #777;
 }
+
 
